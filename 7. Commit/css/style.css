@@ -1,0 +1,76 @@
+.resimSlider {
+
+    height: 705px;
+
+}
+
+.fotoCard {
+    height: 60%;
+    width: 60%;
+
+
+
+}
+
+.fotoSehir {
+    height: 420px;
+
+}
+
+.fotoSIIRT {
+
+    height: 400px;
+    width: 80px;
+}
+
+.fotoCardd {
+    height: 600px;
+}
+
+.okullarım {
+    background-color: rgb(234,229,229)
+}
+
+#miras {
+    background-color: rgb(234,229,229)
+}
+
+#hakkimda {
+    background-color: aqua
+}
+
+.ornek {
+    width: 1000px;
+    margin: auto;
+    background-color: rgb(234,229,229)
+}
+
+.sola-kaydir {
+    height: 400px;
+    float: left;
+    padding: 0 10px 10px 0;
+}
+
+body {
+    background-color: rgb(234,229,229)
+}
+
+.solakaydir {
+    height: 200px;
+    float: left;
+
+    width: 300px;
+}
+
+.ilgialani {
+    width: 100%;
+    float: left;
+}
+
+footer {
+    background-color:rgb dimgray;
+    text-align:center;
+    clear:both;
+    	 	 
+     	 
+}
