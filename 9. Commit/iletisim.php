@@ -46,23 +46,7 @@
             });
         });
 
-        document.addEventListener("DOMContentLoaded", function () {
-        const form = document.querySelector("form");
-
-      
-        const temizleButonu = document.createElement("button");
-        temizleButonu.textContent = "Temizle";
-        temizleButonu.classList.add("btn", "btn-secondary");
-        temizleButonu.addEventListener("click", function (event) {
-            
-            form.querySelectorAll("input, textarea").forEach(function (element) {
-                element.value = "";
-            });
-        });
-
-        form.appendChild(temizleButonu);
-    });
-
+        
     </script>
 
     <title>Şehrim</title>
@@ -123,7 +107,7 @@
                     </div>
                     <textarea name="mesaj" id="" cols="30" placeholder="Mesaj Giriniz" rows="10" required class="form-control"></textarea>
                     <input type="submit" value="Gönder">
-
+                    <input type="reset" value="Temizle">
 
                 </div>
 
