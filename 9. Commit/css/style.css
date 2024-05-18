@@ -1,0 +1,109 @@
+.resimSlider {
+
+    height: 705px;
+
+}
+
+.fotoCard {
+    height: 60%;
+    width: 60%;
+
+
+
+}
+
+.fotoSehir {
+    height: 420px;
+
+}
+
+.fotoSIIRT {
+
+    height: 400px;
+    width: 80px;
+}
+
+.fotoCardd {
+    height: 600px;
+}
+
+.okullarım {
+    background-color: rgb(234,229,229)
+}
+
+#miras {
+    background-color: rgb(234,229,229)
+}
+
+#hakkimda {
+    background-color: aqua
+}
+
+.ornek {
+    width: 1000px;
+    margin: auto;
+    background-color: rgb(234,229,229)
+}
+
+.sola-kaydir {
+    height: 400px;
+    float: left;
+    padding: 0 10px 10px 0;
+}
+
+body {
+    background-color: rgb(234,229,229)
+}
+
+.solakaydir {
+    height: 200px;
+    float: left;
+
+    width: 300px;
+}
+
+
+
+#iletisim{
+    background-color: gray;
+    background-size:cover;
+    padding: 180px;
+    height: auto;
+    text-align: center;
+}
+#h3iletisim{
+    color:brown
+}
+#solform{
+    width:50%;
+    float: left;
+    padding-right: 5px;
+}
+#sagform{
+    width:50%;
+    float: right;
+    padding-left: 5px;
+}
+.form-control{
+    
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    line-height: 1.5;
+    color: aliceblue;
+    background-color: brown;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px ;
+}
+textarea{
+    font-family:Arial;
+}
+
+footer {
+    background-color:rgb dimgray;
+    text-align:center;
+    clear:both;
+    	 	 
+     	 
+}

@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://kit.fontawesome.com/c20485228a.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5698c55166.js" crossorigin="anonymous"></script>
+
+    <title>Siirt ve Ben</title>
+    <style>
+        .ilgialani {
+            margin-bottom: 2rem;
+        }
+        .ilgialani img {
+            width: 50%;
+            height: auto;
+            margin-bottom: 1rem;
+            cursor: pointer;
+        }
+        .ilgialani p strong {
+            font-size: 1.5rem;
+        }
+        footer {
+            padding: 1rem 0;
+            background-color: #343a40;
+        }
+        footer p, footer span {
+            margin: 0;
+        }
+        footer a {
+            color: white;
+        }
+        .container {
+            max-width: 800px;
+        }
+    </style>
+</head>
+
+<body>
+    <!--menu kısmı başlangıç-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">SİİRT</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <!-- Justify-content-end menüyü sağa yasladı. -->
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html" aria-current="page"><i class="fas fa-home"></i>Ana Sayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hakkimda.html"><i class="fas fa-info"></i>Hakkımda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="egitim.html"><i class="fas fa-school"></i>Eğitim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sehrim.html"><i class="fas fa-city"></i>Şehrim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="mirasimiz.html"><i class="fas fa-mosque"></i>Mirasımız</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ilgialanlarim.html"><i class="fas fa-smile"></i>İlgi Alanlarım</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="iletisim.php"><i class="fas fa-headset"></i>İletişim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="panelgiris.php"><i class="fas fa-user-lock"></i>Giriş Yap</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <center>
+            <h2 class="mb-5 font-weight-bold">İlgi Alanlarım</h2>
+        </center>
+        <!-- Kitap Okumak başlığı altında API'den gelen kitapları listelemek için ilgili bölüm -->
+        <div class="ilgialani" id="kitaplar">
+            <h3><strong>Kitap Okumak</strong></h3>
+            <p>Kitap okumak favori aktivitelerim arasındadır. Aşağıda istediğiniz konuya göre anlık listelenecek kitap önerilerini bulabilirsiniz.</p>
+            <form id="kitapAramaFormu">
+                <label for="konu">Konu:</label>
+                <input type="text" id="konu" name="konu" placeholder="Kitap konusunu girin">
+                <button type="submit">Ara</button>
+            </form>
+            
+            <!-- Kitap sonuçları gösterilecek alan -->
+            <div id="kitapSonuclari"></div>
+            <!-- API'den gelen kitaplar buraya eklenecek -->
+        </div>
+        <div class="ilgialani">
+            <p><strong>Tuttuğum Takım</strong></p>
+            <img src="img/gs.jpg" alt="Galatasaray">
+            <p>Babam Galatasaraylı olduğu için tuttuğum takım. Hiçbir fanatikliğim yok ama maçlarını takip ederim.</p>
+        </div>
+        <div class="ilgialani">
+            <p><strong>En Sevdiğim Dizi</strong></p>
+            <a href="https://www.diziyou.com/how-i-met-your-mother/" target="_blank">
+                <img src="img/dizi.jpg" alt="How I Met Your Mother">
+            </a>
+            <p>How I Met Your Mother dizisi favori dizim olup HIMYM kısaltmasıyla bilinir. Dizi, arkadaşlık sevgisini aşılayan bir sitcom yani durum komedisidir.</p>
+        </div>
+        <div class="ilgialani">
+            <p><strong>En Sevdiğim Spor</strong></p>
+            <img src="img/voleybol.jpg" alt="Voleybol">
+            <p>Hemen hemen bütün spor dallarını yapmaktan zevk alırım fakat voleybolun yeri çok ayrıdır. Eğitim hayatımın ilk yıllarından bugüne kadar okulda kurulan bütün voleybol takımlarında oynamaktan, maçlara çıkmaktan çok zevk almışımdır.</p>
+        </div>
+        <div class="ilgialani">
+            <p><strong>En Sevdiğim Film</strong></p>
+            <a href="https://www.neoldu.com/marvel-filmleri-sirasi-izleme-listesi-en-iyi-marvel-filmleri-33271h.htm" target="_blank">
+                <img src="img/marvel.jpg" alt="Marvel">
+            </a>
+            <p>Film izlemek en sevdiğim hobilerim arasındadır, özellikle fantastik ve bilim kurgu filmleri. Marvel'in her filmini ayrı ayrı severim ve hepsini ezber bilirim. Filmler arasında ayrım yapamasam da favori karakterim Iron Man'dir.</p>
+        </div>
+    </div>
+    <footer class="text-light text-center">
+        <p>
+            <span>Tüm hakları saklıdır. &copy; 2024</span><br>
+            <span>Designed by <b>Merve Günay</b></span>
+        </p>
+        <a href="#"><i class="fas fa-arrow-up"></i></a>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script>
+        // Form gönderildiğinde
+        document.getElementById('kitapAramaFormu').addEventListener('submit', function(event) {
+            // Sayfanın yeniden yüklenmesini engelle
+            event.preventDefault();
+            
+            // Kullanıcının girdiği konuyu al
+            const konu = document.getElementById('konu').value;
+            
+            // API'ye istek yap
+            fetch(`http://openlibrary.org/subjects/${konu}.json?details=true`)
+                .then(response => response.json())
+                .then(data => {
+                    // Sonuçları göster
+                    const kitaplar = data.works;
+                    const kitapSonuclariDiv = document.getElementById('kitapSonuclari');
+                    kitapSonuclariDiv.innerHTML = ''; // Önceki sonuçları temizle
+                    
+                    kitaplar.forEach(kitap => {
+                        const kitapHTML = `
+                            <div>
+                                <h4>${kitap.title}</h4>
+                                <p>Yazar: ${kitap.authors[0].name}</p>
+                            </div>
+                        `;
+                        kitapSonuclariDiv.innerHTML += kitapHTML;
+                    });
+                })
+                .catch(error => console.error('Hata:', error));
+        });
+    </script>
+</body>
+
+</html>
